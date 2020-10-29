@@ -16,7 +16,7 @@ namespace Lab1
             Employee emp = new Employee();
 
             emp.ID = 123;
-            emp.Name = "Ninja Nerd";
+            emp.Name = "Tristian Neely";
             emp.SSNumber = 123456789;
             emp.EntryDate = DateTime.Now;
 
@@ -24,7 +24,7 @@ namespace Lab1
             Console.ReadLine();
 
             string FilePath = "C:\\Users\\neely_tristian\\Documents\\";
-            string FileName = "Ninja.xml";
+            string FileName = "Samurai.xml";
 
             TextWriter writer = new StreamWriter(FilePath + FileName);
 
