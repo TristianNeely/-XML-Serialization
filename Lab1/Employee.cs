@@ -24,5 +24,7 @@ namespace Lab1
 
         [XmlElement("Today's Date")]
         public DateTime EntryDate { get; set; }
+        [XmlIgnore]
+        public string JobRole { get; set; }
     }
 }
